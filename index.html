@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+ >> Modern Calculator with use Latest Modern JavaScript
+ >> created : Sagar 
+ >> github.com/stacksagar
+ >> all social account username : stacksagar
+ -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Windows 10 Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="calculator">
+    <span class="header">Windows Calculator</span>
+    <div class="output">
+      <div class="previous">0</div>
+      <div class="current">0</div>
+    </div>
+
+    <div class="headingText">
+      <p class="disabled">MC</p>
+      <p class="disabled">MR</p>
+      <p>M+</p>
+      <p>M-</p>
+      <p>MS</p>
+    </div>
+
+    <button class="data-action">%</button>
+    <button class="data-action-another">√</button>
+    <button class="data-action-another">x2</button>
+    <button class="data-action-another">1/x</button>
+    <button class="data-all-clear bg2">AC</button>
+    <button class="data-current-clear bg2">C</button>
+    <button class="data-delete bg2"><span>x</span></button>
+    <button class="data-action bg">÷</button>
+    <button class="data-number">7</button>
+    <button class="data-number">8</button>
+    <button class="data-number">9</button>
+    <button class="data-action bg">*</button>
+    <button class="data-number">4</button>
+    <button class="data-number">5</button>
+    <button class="data-number">6</button>
+    <button class="data-action bg">-</button>
+    <button class="data-number">1</button>
+    <button class="data-number">2</button>
+    <button class="data-number">3</button>
+    <button class="data-action bg">+</button>
+    <button class="data-action bg">±</button>
+    <button class="data-number">0</button>
+    <button class="data-number bg-unset dot-parent"><b class="dot">.</b></button>
+    <button class="data-equal bg">=</button>
+  </div>
+
+  <div class="history-memory">
+    <div class="contain">
+
+      <ul>
+        <li class="item active">History</li>
+        <li class="item">Memory</li>
+      </ul>
+
+      <div class="historyMain">
+        <div class="history">
+        </div>
+        <p id="clearHistory"> <img src="delete.png" alt="Clear all"> </p>
+      </div>
+
+      <div class="memory">
+        <b>There's nothing saved in memory</b>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
