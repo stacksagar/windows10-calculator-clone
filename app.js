@@ -241,3 +241,21 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
+
+
+// fixed name link dynamic and everything
+const fixedName = document.querySelector(".fixedName");
+fixedName.setAttribute("style","position:fixed;right:10px;bottom:10px;background:#00000055;padding:10px 20px;color:#333;border-radius:10px")
+let gitUsername = fixedName.classList[1] ? "/"+fixedName.classList[1] : '' ;
+fixedName.innerHTML = `<a class="gitLink"> <i id="gitIcon" class="fab fa-github"></i> stacksagar
+</a>`
+document.addEventListener("DOMContentLoaded", ()=>{ 
+ document.querySelectorAll(".gitLink").forEach(item=>{
+  item.setAttribute("href", `https://github.com/stacksagar${gitUsername}`)
+ })
+const fixedNameA = document.querySelector(".fixedName a");  
+const gitIcon = document.querySelector("#gitIcon");  
+fixedNameA.setAttribute('style','color:#fff;font-size:1.5rem;text-decoration:none')   
+})
+gitIcon.setAttribute('style','margin-bottom:-2px !important') 
+
