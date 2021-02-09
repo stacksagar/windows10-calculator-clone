@@ -1,4 +1,4 @@
-## <a href="#"> Windows 10 Calculator Clone </a>
+## <a href="#"> Windows 10 Calculator Clone 😎 </a>
 ###### `w10 Calculator` [See Live Preview](https://stacksagar.github.io/windows10-calculator-clone "project of @stacksagar")
 
 ### Connect With Me 👇
